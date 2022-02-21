@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.prev{
+    position: absolute
+}
+.img{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.arrowPrevious{
+    transform: rotateY(180deg);
+    position: absolute
+}
+.arrowNext{
+    position: absolute
+}
+.slider{
+    display: flex;
+}
+.item{
+    width: 50%;
+}
